@@ -12,7 +12,7 @@
     <Contact/>
     <JoinOurTeam/>
     <Footer/>
-    <WhatsAppButton/>
+    <WhatsappButton/>
     
   </div>
 </template>
@@ -26,7 +26,7 @@ import WhyChooseUs from '../components/WhyChooseUs.vue'
 import Booking from '../components/Booking.vue'
 import Contact from '../components/Contact.vue'
 import Footer from '../components/Footer.vue'
-import WhatsAppButton from '../components/WhatsAppButton.vue'
+import WhatsappButton from '../components/WhatsappButton.vue'
 import ConnectorStrip from '@/components/ConnectorStrip.vue'
 import Packages from '@/components/Packages.vue'
 import HowToOrder from '@/components/HowToOrder.vue'
@@ -34,6 +34,6 @@ import JoinOurTeam from '@/components/JoinOurTeam.vue'
 
 
 export default {
-  components: { Header, Hero, About, Services, WhyChooseUs, Booking, Contact, Footer, WhatsAppButton, ConnectorStrip, Packages, HowToOrder,JoinOurTeam }
+  components: { Header, Hero, About, Services, WhyChooseUs, Booking, Contact, Footer, WhatsappButton, ConnectorStrip, Packages, HowToOrder,JoinOurTeam }
 }
 </script>
