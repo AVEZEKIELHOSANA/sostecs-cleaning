@@ -1,17 +1,17 @@
 <template>
   <a :href="whatsAppLink" target="_blank" class="whatsapp-btn">
-    <whatsappIcon />
+    <img src="../assets/whatsapps.png" alt="." />
   </a>
 </template>
 
 <script>
 import { translations } from '../i18n.js'
-import whatsappIcon from '../assets/whatsappIcon.vue'
+
 export default {
   computed: {
     whatsAppLink() {
       const text = encodeURIComponent(translations.t('whatsappMessage'))
-      return `https://wa.me/673717424?text=${text}`
+      return `https://wa.me/682299950?text=${text}`
     }
   }
 }

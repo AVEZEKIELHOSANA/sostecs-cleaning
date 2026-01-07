@@ -93,14 +93,14 @@ ${form.message || "None"}
       `
 
       // ---------- EMAIL ----------
-      const mailto = `mailto:hosanaezekiel21@gmail.com
+      const mailto = `mailto:sostecsltd@gmail.com
 ?subject=${encodeURIComponent("Cleaning Booking Request")}
 &body=${encodeURIComponent(summary)}`
 
       window.open(mailto, "_blank")
 
       // ---------- WHATSAPP ----------
-      const whatsapp = `https://wa.me/237673717424?text=${encodeURIComponent(summary)}`
+      const whatsapp = `https://wa.me/237682299950?text=${encodeURIComponent(summary)}`
       window.open(whatsapp, "_blank")
 
       successMessage.value = "Booking request sent successfully! We will contact you shortly 🙂"

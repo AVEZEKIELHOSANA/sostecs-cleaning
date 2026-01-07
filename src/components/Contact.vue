@@ -3,7 +3,7 @@
     <h2 class="section-title fade-in">{{ t('contactTitle') }}</h2>
     <div class="contact-info fade-in delay-1">
       <p><strong>Address:</strong> {{ t('address') }}</p>
-      <p><strong>Phone:</strong> {{ t('phone') }}</p>
+      <p><strong>Phone:</strong> {{ t('phne') }}</p>
       <p><strong>Email:</strong> {{ t('email') }}</p>
     </div>
     <div class="map fade-in delay-2">

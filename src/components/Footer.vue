@@ -22,25 +22,26 @@
       <div class="footer-contact animate">
         <h3>{{ t("footer.contactUs") }}</h3>
         <p>{{ t("contact.city") }}</p>
-        <p>{{ t("contact.phone") }}: +237 673717424</p>
-        <p>Email: hosanaezekiel21@gmail.com</p>
+        <p>{{ t("contact.phone") }}: +237 682299950</p>
+        <p>Email: sostecsltd@gmail.com</p>
       </div>
 
       <!-- Socials -->
       <div class="footer-socials animate">
         <h3>{{ t("footer.follow") }}</h3>
         <div class="icons">
-          <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-          <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          
+          <a href="#" target="_blank"><font-awesome-icon :icon="['fab','facebook-f']" /></a>
+          <a href="#" target="_blank"><font-awesome-icon :icon="['fab','instagram']" /></a>
+          <a href="#" target="_blank"><font-awesome-icon :icon="['fab','twitter']" /></a>
+          <a href="https://wa.me/682299950?text=${text}" target="_blank"><font-awesome-icon :icon="['fab','whatsapp']" /></a>
         </div>
       </div>
     </div>
 
     <!-- Bottom -->
     <div class="footer-bottom animate">
-      <p>© 2025 {{ t("brand.name") }} — {{ t("footer.rights") }}</p>
+      <p>© 2026 sostecsltd — {{ t("footer.rights") }}</p>
     </div>
   </footer>
 </template>

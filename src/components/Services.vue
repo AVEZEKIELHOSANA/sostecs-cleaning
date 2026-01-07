@@ -27,18 +27,25 @@
 <script>
 import { ref, computed, onMounted } from "vue";
 import { translations } from "../i18n.js";
+import home from '../assets/home-cleaning.jpg'
+import office from '../assets/office-cleaning.jpg'
+import deep from '../assets/deep-clean.jpg'
+import move from '../assets/move-cleaning.jpg'
+import laundry from '../assets/laundry.jpg'
+import dishes from '../assets/dishes.jpg'
+
 
 export default {
   setup() {
     const t = translations.t.bind(translations);
 
     const services = computed(() => [
-      { title:'serviceHomeTitle',  desc:'serviceHomeDesc',  img:'src/assets/home-cleaning.jpg' },
-      { title:'serviceOfficeTitle',desc:'serviceOfficeDesc',img:'src/assets/office-cleaning.jpg' },
-      { title:'serviceDeepTitle',  desc:'serviceDeepDesc',  img:'src/assets/deep-clean.jpg' },
-      { title:'serviceMoveTitle',  desc:'serviceMoveDesc',  img:'src/assets/move-cleaning.jpg' },
-      { title:'serviceLaundryTitle',desc:'serviceLaundryDesc',img:'src/assets/laundry.jpg' },
-      { title:'serviceDishesTitle', desc:'serviceDishesDesc', img:'src/assets/dishes.jpg' }
+      { title:'serviceHomeTitle',  desc:'serviceHomeDesc',  img:home },
+      { title:'serviceOfficeTitle',desc:'serviceOfficeDesc',img:office },
+      { title:'serviceDeepTitle',  desc:'serviceDeepDesc',  img:deep },
+      { title:'serviceMoveTitle',  desc:'serviceMoveDesc',  img:move },
+      { title:'serviceLaundryTitle',desc:'serviceLaundryDesc',img:laundry },
+      { title:'serviceDishesTitle', desc:'serviceDishesDesc', img:dishes }
     ]);
 
     const currentIndex = ref(0);

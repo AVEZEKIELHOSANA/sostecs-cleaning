@@ -99,7 +99,7 @@ Willing to train: ${form.value.training ? "Yes":"No"}
 `;
 
       window.location.href =
-        "mailto:hosanaezekiel21@gmail.com"
+        "mailto:sostecsltd@gmail.com"
         + "?subject=Cleaner Application"
         + "&body=" + encodeURIComponent(body);
     };
